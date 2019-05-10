@@ -69,7 +69,7 @@ Log the result of your new array. */
 
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called uni that contains them all. Log the result. */
-const uni = graduates.filter(item => item.university === "Uni");
+const uni = graduates.filter(item => item.university.includes("Uni"));
 console.log(uni);
 
 
